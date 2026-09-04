@@ -5,10 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-      - run: echo "Hello World!"
+        run: echo "Hello World!"
+      
       - name: Print distribution
-      - run: uname -a
+        run: uname -a
+      
       - name: Print goodbye
-      - run: echo "Done - Goodbye!"
+        run: echo "Done - Goodbye!"
       
   
